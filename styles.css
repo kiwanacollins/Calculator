@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(145, 182, 182);
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Pacifico', cursive;
+    height: 100vh;
+  }
+  
+  .main-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .main-calc {
+    background-color: grey;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 90vw;
+    overflow: hidden;
+  }
+  button {
+    background-color: grey;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 60px;
+    height: 80px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-weight: 380;
+  }
+  
+  .all-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-grow: inherit;
+  }
+  
+  .place-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 40vw;
+    height: 12vh;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    background-color: grey;
+    border: none;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+  }
+  
+  img {
+    height: 30px;
+    width: 30px;
+    margin-left: -5px;
+    margin-top: 16px;
+    padding-top: 0px;
+  }
+  #with-bin {
+    padding-top: 0px;
+    padding-bottom: 75.4px;
+  }
+  
+  button:hover {
+    background-color: #b5cde7;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.9);
+  }
+  
+  .footer {
+    padding: 10px;
+    margin-bottom: 0.2px;
+    margin-left: 350px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #f093fb 0%, #81d4fa 100%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .display {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-top: 9px;
+  }
+  
+  h3 {
+    font-family: 'Pacifico', cursive;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  @keyframes marquee {
+    50% {
+      transform: translateX(70%);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  footer {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  footer p {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+  }
+  
